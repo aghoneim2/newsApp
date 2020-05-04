@@ -9,7 +9,7 @@ import requests
 from newsapi import NewsApiClient
 
 # Init
-api = NewsApiClient(api_key='5c21f296631d4a91aa2645cbbe54ed2f')
+api = NewsApiClient(api_key='hidden')
 
 # /v2/top-headlines
 # can work by passing in location into the 'q' section and searching
