@@ -6,7 +6,7 @@
 import json
 import requests
 
-response = requests.get("https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=5G5McXZdWv0TAUKzeptu3uSE8da97am6")
+response = requests.get("https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=hidden")
 
 def printNews():
 	#print("Hello, this is a python test.")
